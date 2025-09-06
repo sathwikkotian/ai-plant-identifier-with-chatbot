@@ -14,7 +14,7 @@ genai.configure(api_key=API_KEY)
 # Configure the model
 MODEL_NAME = "gemini-1.5-flash"
 
-# Valid plant types - update this to match your app.py
+# Valid plant types 
 VALID_PLANT_TYPES = {'rose', 'dandelion', 'sunflower', 'tulip', 'daisy'}
 
 
