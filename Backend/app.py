@@ -26,7 +26,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 model = load_my_model("C:\\Users\\ASUS\\Documents\\MAJOR_PROJECT\\MobileNetv2.keras")
 
 # Valid plant types (modify according to your model's classes)
-VALID_PLANT_TYPES = {'rose', 'daisy', 'sunflower', 'tulip', 'dandelion'}  5 flower types
+VALID_PLANT_TYPES = {'rose', 'daisy', 'sunflower', 'tulip', 'dandelion'}  #5 flower types
 
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
